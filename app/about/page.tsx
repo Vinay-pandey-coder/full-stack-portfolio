@@ -1,16 +1,16 @@
-import Navbar from '@/components/Navbar'
-import Profile from '@/pages/Profile'
-import React from 'react'
+import Navbar from "@/components/Navbar";
+import Profile from "@/components/Profile";
+import React from "react";
 
 const page = () => {
   return (
     <>
-    <Navbar/>
+      <Navbar />
       <div>
-        <Profile/>
+        <Profile />
       </div>
     </>
-  )
-}
+  );
+};
 
-export default page
+export default page;

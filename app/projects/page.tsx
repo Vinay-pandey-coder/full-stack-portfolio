@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from '../../components/Navbar'
-import Project from '../../pages/Project'
+import Project from '../../components/Project'
 
 const page = () => {
   return (

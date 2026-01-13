@@ -1,7 +1,7 @@
 "use client";
-import Home from "@/pages/Home";
-import Name from '@/pages/Name'
-import Skills from '@/pages/Skills'
+import Home from "@/components/Home";
+import Name from '@/components/Name'
+import Skills from '@/components/Skills'
 
 export default function Hero() {
   return (
