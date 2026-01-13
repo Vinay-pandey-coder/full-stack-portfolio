@@ -31,7 +31,7 @@ export default function WobbleCardDemo() {
         <h2 className="max-w-80  text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
           No shirt, no shoes, no weapons.
         </h2>
-        <p className="mt-4 max-w-[26rem] text-left  text-base/6 text-neutral-200">
+        <p className="mt-4 max-w-104 text-left  text-base/6 text-neutral-200">
           If someone yells “stop!”, goes limp, or taps out, the fight is over.
         </p>
       </WobbleCard>
