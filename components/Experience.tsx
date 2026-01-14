@@ -28,7 +28,7 @@ export default function TimelineDemo() {
           </p>
           <ul className="list-disc pl-5 space-y-2 text-sm">
             <li>Frontend Development (React, Next.js)</li>
-            <li>UI/UX Implementation using Tailwind CSS</li>
+            <li>UI Implementation using Tailwind CSS</li>
             <li>Working closely with development teams</li>
             <li>Building responsive & production-ready components</li>
           </ul>
