@@ -13,6 +13,15 @@ export default function AnimatedPinDemo() {
       items-center justify-center 
       mt-20 px-6"
     >
+      <PinContainer title="Movie-app" href="https://movie-we.netlify.app">
+        <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 w-[20rem] h-60">
+          <h3 className="font-bold text-base text-slate-100">Movie-app</h3>
+          <div className="flex flex-1 w-full rounded-lg mt-4 bg-linear-to-br">
+            <img src="/movie-app.png" alt="" />
+          </div>
+        </div>
+      </PinContainer>
+
       <PinContainer title="Job Portal" href="https://job-port1.netlify.app">
         <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 w-[20rem] h-60">
           <h3 className="font-bold text-base text-slate-100">Job Portal</h3>
@@ -22,20 +31,14 @@ export default function AnimatedPinDemo() {
         </div>
       </PinContainer>
 
-      <PinContainer title="E-commerce" href="https://job-port1.netlify.app">
+      <PinContainer
+        title="E-commerce"
+        href="https://e-commerce-frontend-flame-one.vercel.app/"
+      >
         <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 w-[20rem] h-60">
           <h3 className="font-bold text-base text-slate-100">E-commerce</h3>
           <div className="flex flex-1 w-full rounded-lg mt-4 bg-linear-to-br">
-            <img src="/jobPortal.png" alt="" />
-          </div>
-        </div>
-      </PinContainer>
-
-      <PinContainer title="Movie-app" href="https://movie-we.netlify.app">
-        <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 w-[20rem] h-60">
-          <h3 className="font-bold text-base text-slate-100">Movie-app</h3>
-          <div className="flex flex-1 w-full rounded-lg mt-4 bg-linear-to-br">
-            <img src="/movie-app.png" alt="" />
+            <img src="/e-commerce.png" alt="" />
           </div>
         </div>
       </PinContainer>
